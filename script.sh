@@ -9,6 +9,9 @@ sudo apt-get update
 
 sudo apt-get install -y docker.io kubeadm kubectl kubelet kubernetes-cni
 
+#Install DNS for networking
+apt-get install -y avahi-daemon libnss-mdns
+
 #kubeadm init
 
 #sudo cp /etc/kubernetes/admin.conf $HOME/
